@@ -13,5 +13,6 @@ LOS CUATRO PILARES DE LA PROGRAMACIÓN ORIENTADA A OBJETOS:
   Ejemplo de JAVA:
   ![imagen](https://github.com/Ruizerick26/PilaresPOO/assets/117743844/fc5d5f10-b1d5-456f-8f7a-d989552ec16b)
 - Encapsulamiento:
-- Herencia:
-- Polimorfismo:
+- Herencia: La herencia permite que una clase (subclase) herede atributos y métodos de otra clase (superclase). La herencia facilita la reutilización de código y la creación de jerarquías de clases.
+  
+- Polimorfismo: El polimorfismo permite que objetos de diferentes clases sean tratados como objetos de una clase común a través de interfaces comunes. Esto se logra mediante la implementación de métodos con el mismo nombre en diferentes clases, pero con comportamientos específicos para cada una.
