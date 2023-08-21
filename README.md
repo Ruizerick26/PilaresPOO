@@ -17,8 +17,9 @@ En POO, se definen atributos (variables) y métodos (funciones) en una clase. El
 Public: Los miembros públicos de una clase son accesibles desde cualquier lugar, incluso desde fuera de la clase. No hay restricciones en su acceso. Se declaran usando la palabra clave public.
 Private: Los miembros privados son inaccesibles desde fuera de la clase. Solo pueden ser accedidos y modificados desde dentro de la misma clase. Se declaran usando la palabra clave private.
 Protected: Los miembros protegidos son similares a los privados, pero también son accesibles por las clases derivadas (subclases). Se declaran usando la palabra clave protected.
-![img.png](img.png)
-![img_1.png](img_1.png)
+
+  ![img.png](img.png)
+  ![img_1.png](img_1.png)
 - Herencia: La herencia permite que una clase (subclase) herede atributos y métodos de otra clase (superclase). La herencia facilita la reutilización de código y la creación de jerarquías de clases.
 En este ejemplo, tenemos una clase base llamada "figura", que tiene un atributo color y un método area() que devuelve el área de la figura. Luego, tenemos dos clases derivadas: "Circulo" y "Rectangulo", que heredan de la clase Figura con la palabra clave "extends".
 La clase Circulo tiene un atributo adicional radio y sobrescribe el método area() para calcular el área de un círculo.
