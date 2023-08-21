@@ -14,5 +14,21 @@ LOS CUATRO PILARES DE LA PROGRAMACIÓN ORIENTADA A OBJETOS:
   ![imagen](https://github.com/Ruizerick26/PilaresPOO/assets/117743844/fc5d5f10-b1d5-456f-8f7a-d989552ec16b)
 - Encapsulamiento:
 - Herencia: La herencia permite que una clase (subclase) herede atributos y métodos de otra clase (superclase). La herencia facilita la reutilización de código y la creación de jerarquías de clases.
-  
+En este ejemplo, tenemos una clase base llamada "figura", que tiene un atributo color y un método area() que devuelve el área de la figura. Luego, tenemos dos clases derivadas: "Circulo" y "Rectangulo", que heredan de la clase Figura con la palabra clave "extends".
+La clase Circulo tiene un atributo adicional radio y sobrescribe el método area() para calcular el área de un círculo.
+La clase Rectangulo tiene dos atributos adicionales, ancho y alto, y sobrescribe el método area() para calcular el área de un rectángulo. En este caso, la herencia nos permite reutilizar el código de la clase base (Figura) y extenderlo para crear clases más específicas (Circulo y Rectangulo) con atributos y comportamientos adicionales.
+
+  ![image](https://github.com/Ruizerick26/PilaresPOO/assets/117743690/65ab5b93-d6ea-4749-baa3-acde0782e762)
+  ![image](https://github.com/Ruizerick26/PilaresPOO/assets/117743690/f420dcac-3b97-41bc-b13a-140d78e3d898)
+  ![image](https://github.com/Ruizerick26/PilaresPOO/assets/117743690/a94ea309-174f-451d-83e8-9617cd112caf)
+
+
 - Polimorfismo: El polimorfismo permite que objetos de diferentes clases sean tratados como objetos de una clase común a través de interfaces comunes. Esto se logra mediante la implementación de métodos con el mismo nombre en diferentes clases, pero con comportamientos específicos para cada una.
+En este ejemplo, tenemos una clase base llamada Vehiculo con un atributo marcay un método hacerSonarBocina(). Luego, tenemos dos clases derivadas: Coche y Bicicleta, que heredan de la clase Vehiculo.
+Cada una de las clases derivadas ( Coche y Bicicleta) sobrescribe el método hacerSonarBocina() para proporcionar su propio comportamiento específico. Cuando se llama al método hacerSonarBocina() en una instancia de Vehiculo, Java determina automáticamente qué versión del método debe ejecutarse según el tipo real del objeto.
+Este es el concepto de polimorfismo: objetos de diferentes clases se pueden tratar de manera uniforme a través de una interfaz común ( Vehiculo en este caso), y el comportamiento específico se decide en tiempo de ejecución según el tipo real del objeto.
+
+![image](https://github.com/Ruizerick26/PilaresPOO/assets/117743690/8f48b4f8-5305-433b-bf4b-7871a00bb05c)
+![image](https://github.com/Ruizerick26/PilaresPOO/assets/117743690/414262f0-7555-4736-aed9-817d9f07e899)
+![image](https://github.com/Ruizerick26/PilaresPOO/assets/117743690/d456759b-9db7-415e-9f7d-b3b480dcbec4)
+
